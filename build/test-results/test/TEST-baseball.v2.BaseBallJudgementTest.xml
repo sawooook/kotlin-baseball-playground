@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseball.v2.BaseBallJudgementTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-03T14:21:29" hostname="LM-047773-00.local" time="0.001">
+  <properties/>
+  <testcase name="judgementTest()" classname="baseball.v2.BaseBallJudgementTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

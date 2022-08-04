@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseball.v2.BaseBallPlayTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-08-03T14:21:29" hostname="LM-047773-00.local" time="0.028">
+  <properties/>
+  <testcase name="playResult_1_strike_1_ball()" classname="baseball.v2.BaseBallPlayTest" time="0.024"/>
+  <testcase name="playResult_all_ball()" classname="baseball.v2.BaseBallPlayTest" time="0.0"/>
+  <testcase name="playResult_2_ball()" classname="baseball.v2.BaseBallPlayTest" time="0.001"/>
+  <testcase name="playResult_2_strike()" classname="baseball.v2.BaseBallPlayTest" time="0.0"/>
+  <testcase name="playResult_nothing()" classname="baseball.v2.BaseBallPlayTest" time="0.0"/>
+  <testcase name="playResult_all_strike()" classname="baseball.v2.BaseBallPlayTest" time="0.001"/>
+  <system-out><![CDATA[========= 1
+2
+1
+3
+0
+2
+0
+========= 1
+========= 2
+2
+2
+0
+0
+========= 1
+========= 2
+========= 3
+3
+3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

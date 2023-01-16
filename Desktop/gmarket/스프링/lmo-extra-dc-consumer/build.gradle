@@ -1,0 +1,38 @@
+plugins {
+	id 'org.springframework.boot' version '2.5.14'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'kr.co.auction'
+version = '0.0.1'
+sourceCompatibility = '11'
+
+repositories {
+	maven { url 'https://prm.ebaykorea.com/nexus/repository/maven-group/' }
+	mavenCentral()
+}
+
+ext {
+	set('logback.version', "1.2.9")
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+// 	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
+//	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+	implementation 'com.ebaykorea.saturn:saturn-spring-boot-starter-datasource:2.4.16'
+	implementation 'com.ebaykorea.saturn:saturn-spring-boot-starter-moa:2.4.16'
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+	implementation 'org.springframework.kafka:spring-kafka'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('jar') {
+	enabled = false
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

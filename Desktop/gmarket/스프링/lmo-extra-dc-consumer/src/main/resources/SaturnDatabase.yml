@@ -1,0 +1,8 @@
+saturn:
+  datasource:
+    databases:
+      - name: TIGER_READ
+        jdbcUrl: jdbc:sqlserver://gdevdb01:3950;database=tiger
+        username: dev
+        password: dev3950
+
